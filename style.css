@@ -205,11 +205,11 @@ section{
 }
   section{
     justify-content: left;
-    height:400px;
+    height:250%;
     width:100%;
 }
 .n1 p{
-    font-size: 20px;
+    font-size: 50px;
 }
 
 }

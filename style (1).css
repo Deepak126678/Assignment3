@@ -1,0 +1,148 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+#main1 {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    background-color: rgb(255, 255, 255);
+    grid-template-columns: 25% 25%  50%; /* Two equal columns */
+    grid-template-rows: 30% 50% 20%; /* Three rows: 30%, 50%, and 20% */
+    box-sizing: border-box; /* Ensures proper sizing */
+}
+
+#left-top-right {
+    /* background-color: blue; */
+   justify-self: right;
+   text-align: right;
+   
+    grid-column: 2; /* Second column */
+    grid-row: 1 ; /* Span all rows (from row 1 to row 4, since grid-template-rows has 3 rows) */
+}
+
+#left-top-left {
+    /*background-color: rgb(247, 33, 21); */
+   /*  grid-row: 1;  First row */
+    height: 100%;
+    width: 100%;
+    grid-column: 1;
+    padding: 10%;
+    grid-row: 1;
+}
+
+#left-center {
+   /* background-color: rgb(197, 33, 158); */
+    grid-row: 2; /* Second row */
+   
+    grid-column: 1 / 3;
+    grid-row: 2;
+    padding-left:15px;
+    font-weight: 600;
+    
+}
+
+#left-center h1{
+    font-size: 30px;
+    
+    padding-left: 30px;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#left-center h1:nth-child(2n){
+    
+    text-align: center;
+}
+
+
+#left-bottom {
+   /* background-color: rgb(97, 103, 117);*/
+    grid-column: 1 /3;
+    grid-row: 3; /* Third row */
+    height: 100%;
+    width: 100%;
+   
+}
+#left-bottom{
+    text-align: center;
+}
+#right
+{
+    /*background-color: yellow; */
+    grid-column: 3;
+    grid-row: 1 / 4;
+    padding: 40px;
+}
+#right video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#square{
+    height:15px;
+    width:15px;
+    rotate: 45deg;
+    background-color: black;
+}
+#left-top-right h5{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-weight: 400;
+}
+#left-top-right h6{
+    padding: 0;
+    margin:0;
+    font-size: 10px;
+    font-weight: 400;
+    
+}
+#gallery {
+    display: grid; /* Enable grid layout */
+    grid-template-columns: repeat(2, 1fr); /* 2 columns of equal width */
+    grid-template-rows: repeat(3, auto); /* 2 rows, height adjusts automatically */
+    gap: 10px; /* Adds spacing between grid items */
+    width: 400%; /* Optional: Adjust the container width */
+    padding: 10px; /* Optional: Adds padding around the grid */
+}
+
+.g1 {
+    width: 100%; /* Makes images fill their grid cells */
+    height: auto; /* Maintains the image aspect ratio */
+    object-fit: cover; /* Ensures images fit neatly into the cells */
+}
+.n1{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding-left: 10px;
+    background-color: yellow;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serifs;
+
+
+}
+#logo{
+    height:70px;
+    width:70px;
+    margin:0px;
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding-left: 10px;
+}
+footer p{
+    text-align: center;
+    margin-left: 100%;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+     'Lucida Sans', Arial, sans-serif;
+}
+
+

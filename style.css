@@ -203,6 +203,14 @@ section{
     
     box-sizing: border-box; 
 }
+  section{
+    justify-content: left;
+    height:300%;
+    width:100%;
+}
+.n1 p{
+    font-size: 20px;
+}
 
 }
 

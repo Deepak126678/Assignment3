@@ -184,12 +184,16 @@ section{
         gap: 10px; 
         width: 100%; 
         padding: 10px; 
+         margin-left: 5%;
+        margin-right:5%;
 
   }
   #main1 {
     height: 100%;
     width: 100%;
     display: flex;
+        margin-left: 5%;
+        margin-right:5%;
    
     
     flex-direction: column;

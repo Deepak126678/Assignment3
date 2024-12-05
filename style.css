@@ -12,6 +12,7 @@ html, body {
     
     grid-template-columns: 25% 25%  50%;
     grid-template-rows: 30% 50% 20%; 
+   
     box-sizing: border-box; 
 }
 
@@ -186,6 +187,7 @@ section{
         padding: 10px; 
          margin-left: 5%;
         margin-right:5%;
+         align-items:center;
 
   }
   #main1 {
@@ -194,6 +196,7 @@ section{
     display: flex;
         margin-left: 5%;
         margin-right:5%;
+       align-items:center;
    
     
     flex-direction: column;
